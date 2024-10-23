@@ -1,0 +1,95 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-color: #1a4347; 
+    color: #ffffff;
+    padding: 40px;
+    text-align: center;
+}
+
+.header h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.header p {
+    font-size: 18px;
+    margin: 0;
+}
+
+.services-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+}
+
+.services-section {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    width: 80%;
+    max-width: 800px;
+}
+
+.services-section h2 {
+    font-size: 24px;
+    color: #1a4347; 
+    margin-bottom: 10px;
+}
+
+.services-list {
+    list-style-type: disc;
+    margin-left: 20px;
+    color: #333;
+    font-size: 16px;
+}
+
+.subscription-info {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.subscription-plans {
+    list-style-type: none;
+    padding-left: 0;
+    color: #1a4347;
+}
+
+.subscription-plans li {
+    margin-bottom: 10px;
+}
+
+.subscription-plans a {
+    color: #e07c49;
+    text-decoration: none;
+}
+
+.subscription-plans a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #1a4347;
+    color: #ffffff;
+    text-align: center;
+    padding: 15px;
+    margin-top: 30px;
+}
+
+@media (max-width: 768px) {
+    .services-section {
+        width: 100%;
+    }
+}
